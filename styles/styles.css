@@ -1,0 +1,78 @@
+* {
+  background-color: rgb(255, 204, 110);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  border: solid black;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+h2 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: black
+}
+
+p {
+    text-indent: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(226, 76, 22);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 10px;
+}
+
+ul,
+ol,
+li,
+.list {
+    background-color: aliceblue;
+    ;
+}
+
+#chef {
+  border: black solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: auto;
+}
+
+.food {
+    border: black solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+  }
+
