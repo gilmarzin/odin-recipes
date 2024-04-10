@@ -1,78 +1,114 @@
-* {
-  background-color: rgb(255, 204, 110);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  background-color: white;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/pexels-kampus-production-6760864.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.content {
+  margin: 8px;
+  padding: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
-  border: solid black;
   padding: 15px;
+  font-size: 20px;
+  text-indent: 20px;
+  color: white;
 }
 
-h1 {
+.title {
+  color: wheat;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: italic;
-  font-size: 28px;
+  font-size: 72px;
   text-decoration: underline;
+  text-align: center;
+  margin: 16px 0;
 }
 
-h2 {
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    color: black
-}
-
-p {
-    text-indent: 20px;
+.subtitle {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  color: wheat;
+  margin: 32px 16px;
 }
 
 a {
-  color: black;
+  color: rgb(248, 230, 181);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 28px;
+  margin: 24px;
 }
 
 a:hover {
-  color: rgb(226, 76, 22);
+  color: rgb(255, 68, 0);
 }
 
 figcaption {
-    text-align: center;
-    font-size: 10px;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+#index {
+  margin: 16px auto;
+  text-align: center;
 }
 
 ul,
-ol,
-li,
-.list {
-    background-color: aliceblue;
-    ;
+ol {
+  list-style-position: inside;
 }
 
-#chef {
-  border: black solid;
+.ingredients {
+  font-size: 24px;
+  list-style: square outside;
+}
+
+.images {
+  border: 4px black solid;
+  border-radius: 5px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 180px;
+  margin: 16px auto;
+  width: 512px;
   height: auto;
 }
 
-.food {
-    border: black solid;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: auto;
-  }
+img {
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
 
+figcaption {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
